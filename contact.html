@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us — Lumina AI School</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="nav">
+    <a href="index.html" class="logo">
+      <img src="assets/images/logo.png" alt="Lumina AI School logo" class="logo-img">
+      <div class="logo-text">LUMINA AI SCHOOL</div>
+    </a>
+    <button class="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    <nav class="links">
+      <a href="index.html">Home</a>
+      <a href="careers.html">Careers</a>
+      <a href="contact.html" class="active">Contact Us</a>
+    </nav>
+    <div class="nav-right">
+      <a href="careers.html#apply" class="btn btn-primary btn-sm">Apply Now</a>
+    </div>
+  </div>
+</header>
+
+<section class="subhero">
+  <div class="tech-bg"><div class="orb orb-blue"></div><div class="orb orb-cyan"></div></div>
+  <div class="wrap subhero-inner">
+    <span class="pill accent">Contact Us</span>
+    <h1>Questions about a role, or working with us?</h1>
+    <p>Fill in the form and our team will reach out within one working day — or message us directly on WhatsApp. Applying for a specific role? <a href="careers.html#apply" style="color:var(--cyan);font-weight:600;">Use the application form on our Careers page</a> instead.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="contact-grid">
+
+      <div class="form-card">
+        <h2 class="section-title" style="font-size:1.3rem;margin-bottom:6px;">Get in Touch</h2>
+        <p class="muted" style="margin-bottom:24px;font-size:0.9rem;">General enquiries, partnerships, or anything else — we read every message.</p>
+        <form action="https://formsubmit.co/luminaai.edu@gmail.com" method="POST" data-form>
+          <input type="hidden" name="_subject" value="New Enquiry — Lumina AI School">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_next" value="contact.html?sent=enquiry">
+          <div class="form-grid">
+            <div class="form-field">
+              <label for="pName">Full Name</label>
+              <input type="text" id="pName" name="Full Name" required>
+            </div>
+            <div class="form-field">
+              <label for="pEmail">Email</label>
+              <input type="email" id="pEmail" name="Email" required>
+            </div>
+            <div class="form-field">
+              <label for="pPhone">Phone Number</label>
+              <input type="tel" id="pPhone" name="Phone Number" required>
+            </div>
+            <div class="form-field">
+              <label for="pReason">Reason for Contact</label>
+              <select id="pReason" name="Reason for Contact" required>
+                <option value="">Select a reason</option>
+                <option>Careers &amp; Job Enquiry</option>
+                <option>General Enquiry</option>
+                <option>Partnership / Business</option>
+                <option>Media Enquiry</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-field full">
+              <label for="pMessage">Message</label>
+              <textarea id="pMessage" name="Message" placeholder="Tell us what you'd like to know" required></textarea>
+            </div>
+          </div>
+          <div class="form-submit-row">
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </div>
+        </form>
+        <div class="success-msg">Thanks — we've received your message and will be in touch within 1 working day.</div>
+      </div>
+
+      <div class="contact-side">
+        <div class="contact-card">
+          <span class="cl">Email</span>
+          <a href="mailto:luminaai.edu@gmail.com" class="link-line">luminaai.edu@gmail.com</a>
+        </div>
+        <div class="contact-card">
+          <span class="cl">Phone</span>
+          <a href="tel:01168795933" class="link-line">011-6879 5933</a>
+        </div>
+        <a href="https://wa.me/601168795933" class="btn wa-btn" style="justify-content:center;">Message us on WhatsApp →</a>
+        <div class="contact-card">
+          <span class="cl">Backed By</span>
+          <p style="font-size:0.88rem;color:var(--muted);">A member of Big Apple Education Group — 50+ branches nationwide.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0;">
+  <div class="wrap">
+    <div class="section-head center">
+      <span class="tag">Find Us</span>
+      <h2 class="section-title">Visit a campus in person</h2>
+      <p class="section-desc center">See it on the map, or open directions straight into Google Maps.</p>
+    </div>
+
+    <div class="map-card">
+      <iframe
+        src="https://maps.google.com/maps?cid=16377988514686089347&output=embed"
+        width="100%" height="420" style="border:0;" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Lumina AI School location on Google Maps">
+      </iframe>
+    </div>
+    <div style="text-align:center;margin-top:20px;">
+      <a href="https://www.google.com/maps/place/LUMINA+AI+SCHOOL/data=!4m2!3m1!1s0x0:0xe34a4dc7a14ab883" class="btn btn-primary" target="_blank" rel="noopener">Get Directions on Google Maps →</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo"><img src="assets/images/logo.png" alt="Lumina AI School logo" class="logo-img"><div class="logo-text">LUMINA AI SCHOOL</div></a>
+        <p>Hands-on AI, robotics and STEM education for ages 5–18, across Malaysia.</p>
+      </div>
+      <div>
+        <h5>Site</h5>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#about">About Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Join Us</h5>
+        <ul>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="careers.html#apply">Apply Now</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Contact</h5>
+        <ul>
+          <li><a href="mailto:luminaai.edu@gmail.com">luminaai.edu@gmail.com</a></li>
+          <li><a href="tel:01168795933">011-6879 5933</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 LUMINA AI SCHOOL</p>
+      <span class="backing-pill">A member of Big Apple Education Group (50+ branches)</span>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

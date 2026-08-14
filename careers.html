@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Careers — Lumina AI School</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="nav">
+    <a href="index.html" class="logo">
+      <img src="assets/images/logo.png" alt="Lumina AI School logo" class="logo-img">
+      <div class="logo-text">LUMINA AI SCHOOL</div>
+    </a>
+    <button class="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    <nav class="links">
+      <a href="index.html">Home</a>
+      <a href="careers.html" class="active">Careers</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+    <div class="nav-right">
+      <a href="#apply" class="btn btn-primary btn-sm">Apply Now</a>
+    </div>
+  </div>
+</header>
+
+<section class="subhero">
+  <div class="tech-bg"><div class="orb orb-blue"></div><div class="orb orb-cyan"></div></div>
+  <div class="wrap subhero-inner">
+    <span class="pill accent">Join the Lumina Team</span>
+    <h1>Shape the minds building the future of AI &amp; robotics</h1>
+    <p>We're hiring educators and operators across our campuses — real impact, real hardware, real growth.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head center">
+      <span class="tag">Why teach here</span>
+      <h2 class="section-title">What makes Lumina different</h2>
+    </div>
+    <div class="why-teach-grid">
+      <div class="card value-card">
+        <div class="chip-icon">01</div>
+        <h3>Real impact</h3>
+        <p>You watch a student go from "I don't get it" to demoing a working robot, in the same term.</p>
+      </div>
+      <div class="card value-card">
+        <div class="chip-icon">02</div>
+        <h3>State-of-the-art tech lab</h3>
+        <p>LeanBot, WhaleBot, and a curriculum refreshed every term — not equipment gathering dust in a cupboard.</p>
+      </div>
+      <div class="card value-card">
+        <div class="chip-icon">03</div>
+        <h3>Strong career growth</h3>
+        <p>Backed by Big Apple Education Group's 50+ branches — real paths from instructor to centre lead and beyond.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0;">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="tag">Open Roles</span>
+      <h2 class="section-title">Four roles hiring now</h2>
+      <p class="section-desc">Filter by department, or tap a role to see the full brief.</p>
+    </div>
+
+    <div class="filter-tabs">
+      <button class="filter-tab active" data-role-filter="all">All Roles</button>
+      <button class="filter-tab" data-role-filter="teaching">Teaching</button>
+      <button class="filter-tab" data-role-filter="operations">Operations</button>
+    </div>
+
+    <div class="qual-filter">
+      <label for="qualFilter">Filter by your highest qualification</label>
+      <select id="qualFilter">
+        <option value="all">Show all roles</option>
+        <option value="spm">SPM / STPM</option>
+        <option value="diploma">Diploma</option>
+        <option value="degree">Bachelor's Degree</option>
+        <option value="master">Master's Degree / PhD</option>
+      </select>
+      <span class="qual-hint">We'll only show roles you're eligible to apply for.</span>
+    </div>
+
+    <div id="rolesList">
+
+      <div class="role-card" data-dept="teaching" data-minqual="degree">
+        <button class="role-head" aria-expanded="false">
+          <div>
+            <h3>Lead Robotics &amp; AI Educator</h3>
+            <div class="role-tags"><span>Teaching</span><span>Full-time / Part-time</span><span>Multi-campus</span><span>Min. Degree</span></div>
+          </div>
+          <span class="role-chev">▸</span>
+        </button>
+        <div class="role-panel">
+          <div class="role-panel-inner">
+            <h4>What you'll do</h4>
+            <ul>
+              <li>Lead Robot Engineer and Virtual Engineer classes for students aged 9–18</li>
+              <li>Mentor junior instructors and help maintain the LeanBot/WhaleBot fleet</li>
+              <li>Represent Lumina at regional robotics competitions</li>
+            </ul>
+            <h4>What we're looking for</h4>
+            <ul>
+              <li>Bachelor's degree in Engineering, Computer Science, or a related field</li>
+              <li>Hands-on robotics or electronics background</li>
+              <li>Comfortable teaching both beginners and advanced students in the same day</li>
+              <li>Open to full-time or part-time — tell us your availability</li>
+            </ul>
+            <a href="#apply" class="btn btn-primary btn-sm apply-btn" data-role-name="Lead Robotics &amp; AI Educator">Apply for this role ↓</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="role-card" data-dept="teaching" data-minqual="diploma">
+        <button class="role-head" aria-expanded="false">
+          <div>
+            <h3>STEM &amp; Coding Instructor (Ages 5–14)</h3>
+            <div class="role-tags"><span>Teaching</span><span>Full-time</span><span>Min. Diploma</span></div>
+          </div>
+          <span class="role-chev">▸</span>
+        </button>
+        <div class="role-panel">
+          <div class="role-panel-inner">
+            <h4>What you'll do</h4>
+            <ul>
+              <li>Teach Early STEM, Code Architect and AI Tool Explorer classes</li>
+              <li>Plan lessons and track progress for students aged 5–14</li>
+              <li>Run parent-facing demo days each term</li>
+            </ul>
+            <h4>What we're looking for</h4>
+            <ul>
+              <li>Diploma or higher, in any field — comfortable with Scratch and basic Python</li>
+              <li>Patient with young beginners — prior teaching a plus, not a must</li>
+            </ul>
+            <a href="#apply" class="btn btn-primary btn-sm apply-btn" data-role-name="STEM &amp; Coding Instructor">Apply for this role ↓</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="role-card" data-dept="teaching" data-minqual="spm">
+        <button class="role-head" aria-expanded="false">
+          <div>
+            <h3>Digital Literacy Trainer</h3>
+            <div class="role-tags"><span>Teaching</span><span>Part-time</span><span>Min. SPM</span></div>
+          </div>
+          <span class="role-chev">▸</span>
+        </button>
+        <div class="role-panel">
+          <div class="role-panel-inner">
+            <h4>What you'll do</h4>
+            <ul>
+              <li>Teach the Digital Creator programme — Word, Excel and Canva through real projects</li>
+              <li>Support students building portfolios and presentations</li>
+            </ul>
+            <h4>What we're looking for</h4>
+            <ul>
+              <li>SPM/STPM or higher — strong working knowledge of Microsoft Office and Canva</li>
+              <li>Comfortable running a classroom of mixed-age students</li>
+            </ul>
+            <a href="#apply" class="btn btn-primary btn-sm apply-btn" data-role-name="Digital Literacy Trainer">Apply for this role ↓</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="role-card" data-dept="operations" data-minqual="spm">
+        <button class="role-head" aria-expanded="false">
+          <div>
+            <h3>Centre Operations &amp; Student Coordinator</h3>
+            <div class="role-tags"><span>Operations</span><span>Full-time</span><span>Min. SPM</span></div>
+          </div>
+          <span class="role-chev">▸</span>
+        </button>
+        <div class="role-panel">
+          <div class="role-panel-inner">
+            <h4>What you'll do</h4>
+            <ul>
+              <li>Manage enrolment, scheduling and attendance for your campus</li>
+              <li>Be the first point of contact for parents and students</li>
+              <li>Coordinate with instructors on class logistics and equipment needs</li>
+            </ul>
+            <h4>What we're looking for</h4>
+            <ul>
+              <li>SPM/STPM or higher — organised, and warm with both parents and kids</li>
+              <li>Fluent in English and Bahasa Malaysia</li>
+            </ul>
+            <a href="#apply" class="btn btn-primary btn-sm apply-btn" data-role-name="Centre Operations &amp; Student Coordinator">Apply for this role ↓</a>
+          </div>
+        </div>
+      </div>
+
+      <p class="no-match-msg" style="display:none;color:var(--muted);font-size:0.9rem;padding:20px 0;">No open roles match that qualification right now — try a different filter, or send a general application below.</p>
+
+    </div>
+  </div>
+</section>
+
+<section class="section" id="apply" style="padding-top:0;">
+  <div class="wrap">
+    <div class="section-head center">
+      <span class="tag">Apply Directly</span>
+      <h2 class="section-title">Send us your application</h2>
+      <p class="section-desc center">Fill this in and attach your resume — we read every application personally.</p>
+    </div>
+
+    <div class="form-card" style="max-width:720px;margin:0 auto;">
+      <form action="https://formsubmit.co/luminaai.edu@gmail.com" method="POST" enctype="multipart/form-data" data-form>
+        <input type="hidden" name="_subject" value="New Job Application — Lumina AI School">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_next" value="careers.html?sent=application#apply">
+        <div class="form-grid">
+          <div class="form-field">
+            <label for="cName">Full Name</label>
+            <input type="text" id="cName" name="Full Name" required>
+          </div>
+          <div class="form-field">
+            <label for="cEmail">Email</label>
+            <input type="email" id="cEmail" name="Email" required>
+          </div>
+          <div class="form-field">
+            <label for="cPhone">Phone Number</label>
+            <input type="tel" id="cPhone" name="Phone Number" required>
+          </div>
+          <div class="form-field">
+            <label for="cRole">Role Applying For</label>
+            <select id="cRole" name="Role Applying For" required>
+              <option value="">Select a role</option>
+              <option>Lead Robotics &amp; AI Educator</option>
+              <option>STEM &amp; Coding Instructor</option>
+              <option>Digital Literacy Trainer</option>
+              <option>Centre Operations &amp; Student Coordinator</option>
+              <option>General Application</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label for="cQual">Highest Qualification</label>
+            <select id="cQual" name="Highest Qualification" required>
+              <option value="">Select your qualification</option>
+              <option>SPM / STPM</option>
+              <option>Diploma</option>
+              <option>Bachelor's Degree</option>
+              <option>Master's Degree / PhD</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-field full">
+            <label for="cMessage">Tell us about yourself</label>
+            <textarea id="cMessage" name="Message" placeholder="A short note on your experience and why this role"></textarea>
+          </div>
+          <div class="form-field full">
+            <label for="resumeUpload">Resume</label>
+            <label for="resumeUpload" class="file-drop" id="resumeLabel">Click to upload your resume (PDF, max 5MB)</label>
+            <input type="file" id="resumeUpload" name="Resume" accept=".pdf" style="display:none;">
+          </div>
+        </div>
+        <div class="form-submit-row">
+          <button type="submit" class="btn btn-primary">Submit Application</button>
+          <span class="form-note">Or email your resume directly to <a href="mailto:luminaai.edu@gmail.com" style="color:var(--cyan);">luminaai.edu@gmail.com</a></span>
+        </div>
+      </form>
+      <div class="success-msg">Thanks — your application's in. We'll be in touch within 5 working days.</div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo"><img src="assets/images/logo.png" alt="Lumina AI School logo" class="logo-img"><div class="logo-text">LUMINA AI SCHOOL</div></a>
+        <p>Hands-on AI, robotics and STEM education for ages 5–18, across Malaysia.</p>
+      </div>
+      <div>
+        <h5>Site</h5>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#about">About Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Join Us</h5>
+        <ul>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="#apply">Apply Now</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Contact</h5>
+        <ul>
+          <li><a href="mailto:luminaai.edu@gmail.com">luminaai.edu@gmail.com</a></li>
+          <li><a href="tel:01168795933">011-6879 5933</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 LUMINA AI SCHOOL</p>
+      <span class="backing-pill">A member of Big Apple Education Group (50+ branches)</span>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
